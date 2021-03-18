@@ -1,11 +1,13 @@
 [
   {
-    "repository": "kernel_motorola_msm8998",
-    "target_path": "kernel/motorola/msm8998"
+    "repository": "StyxProject-Devices/kernel_motorola_msm8998",
+    "target_path": "kernel/motorola/msm8998",
+    "remote": "github"
   },
   {
-    "repository": "hardware_motorola",
-    "target_path": "hardware/motorola"
+    "repository": "StyxProject/hardware_motorola",
+    "target_path": "hardware/motorola",
+    "remote": "github"
   },
   {
     "repository": "LineageOS/android_external_bson",
