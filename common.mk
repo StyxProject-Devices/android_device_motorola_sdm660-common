@@ -217,6 +217,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MotoActions
 
+# Moto Dolby
+PRODUCT_PACKAGES += \
+    MotoDolbyV3
+
+$(call inherit-product, packages/apps/MotoDolbyV3/config.mk)
+
 # Network
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
